@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About us</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link type="text/css" rel="stylesheet" href="other.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="evolve">
+                <img src="images/evolvetoday2.png" alt="Evolve today" height="367" width="696">
+            </div>
+            <div class="container">
+                <a href="index.html">HOME</a>
+                <div class="dropdown">
+                    <button class="dropbtn" onclick="myFunction()">PRODUCTS</button>
+                    <div class="dropdown-content" id="myDropdown">
+                    <a href="telekinesis.html">TELEKINESIS</a>
+                    <a href="teleportation.html">TELEPORTATION</a>
+                    </div>
+                </div> 
+                <a href="about.html">ABOUT US</a>
+                <a href="contact.html">CONTACT</a>
+            </div>
+        </div>
+        <div id="bodybox_about">
+            
+                <h2>We are here to help you reach perfection.</h2>
+                <q>Today there are still millions of people without access to basic health care, thousands of diseases without adequate treatments and millions more people who suffer from everyday ailments. Show that you aren't one of them.</q>
+                <p id="ceo">-Nick Kezenberk<br>CEO</p>
+                <br><h2>You are welcome to visit us.</h2><br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3142.1832066205598!2d23.725050351496705!3d38.042817279611924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1a2500b8ef631%3A0x1a0060aa52679ca4!2zzpvOtc-Jz4YuIM6UzrfOvM6_zrrPgc6xz4TOr86xz4IgMjUwLCDOhs6zzrnOv865IM6Rzr3OrM-BzrPPhc-Bzr_OuSAxMzUgNjI!5e0!3m2!1sel!2sgr!4v1495925097209" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(e) {
+              if (!e.target.matches('.dropbtn')) {
+                var myDropdown = document.getElementById("myDropdown");
+                  if (myDropdown.classList.contains('show')) {
+                    myDropdown.classList.remove('show');
+                  }
+              }
+            };
+        </script>
+    </body>
+</html>

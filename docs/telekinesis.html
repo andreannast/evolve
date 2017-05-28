@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Evolve today</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link type="text/css" rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="evolve">
+                <img src="images/evolvetoday2.png" alt="Evolve today" height="367" width="696">
+            </div>
+            <div class="container">
+                <a href="index.html">HOME</a>
+                <div class="dropdown">
+                    <button class="dropbtn" onclick="myFunction()">PRODUCTS</button>
+                    <div class="dropdown-content" id="myDropdown">
+                    <a href="telekinesis.html">TELEKINESIS</a>
+                    <a href="teleportation.html">TELEPORTATION</a>
+                    </div>
+                </div> 
+                <a href="about.html">ABOUT US</a>
+                <a href="contact.html">CONTACT</a>
+            </div>
+            <div class="telekinesis" align="right">
+                <h1>-TELEKINESIS</h1>
+            </div>
+            <div class="movestuff" align="right">
+                <h2> Move stuff with your mind!</h2>
+            </div>
+        </div>
+
+        <div class="bodybox">
+
+            <div class="words_a">
+                <h2>Make quick work of heavy chores with just a thought</h2>
+            </div>
+
+            <div id="img1">
+                <img src="images/ladytran.png" alt="image of a woman using telekinesis to move a couch out of the way in order to clean." height="363" width="411">
+            </div>            
+        </div>
+
+        <!--
+        <div class="arrow-left"></div>
+        <div class="arrow-right"></div>
+        -->
+
+        <div class="circle-left"></div>
+        <div class="circle-right"></div>
+        <div class="line"></div>
+
+
+        <div class="bodybox">
+            <div class="words_b">
+                <h2>Defend yourself! <br><div class="red">No training</div> required.</h2>
+            </div>
+            <div id="img2">
+                <img src="images/defend.png" alt="defend yourself" height="344" width="390">
+            </div>
+        </div>
+        
+        <div class="circle-left"></div>
+        <div class="circle-right"></div>
+        <div class="line"></div>
+        
+        <div class="bodybox">
+            <div class="words_a">
+                <h2>Eliminate your transportation costs!</h2>
+            </div>
+            <div id="img3">
+                <img src="images/fly2.png" alt="defend yourself" height="343" width="350">
+            </div>
+        </div>
+
+        <div class="circle-left"></div>
+        <div class="circle-right"></div>
+        <div class="line"></div>
+
+
+        <div class="bodybox">
+            <div class="words_b">
+                <h2>The key to solving nearly all life's problems</h2>
+            </div>
+            <div id="img4">
+                <img src="images/key2.png" alt="key" height="131" width="345">
+            </div>
+        </div>
+
+        
+        
+        <div class="circle-left"></div>
+        <div class="circle-right"></div>
+        <div class="line"></div>
+        
+        <div class="bodybox">
+            <div class="words">
+                <div class="words_a">
+                    <h2>Plan your procedure today!</h2>
+                </div>
+                <div class="words_c">
+                    <h2>for <div class="red"><u>only</u></div>   <div class="euro">889€</div></h2>
+                </div>
+            </div>
+            <div id="img5">
+                <img src="images/cat2.png" alt="defend yourself" height="344" width="390">
+            </div>
+        </div>
+        
+        <div class="circle-left"></div>
+        <div class="circle-right"></div>
+        <div class="line"></div>
+        
+        <div class="bodybox_contact">
+            <div class="words_d">
+                <h2>Plan your procedure today!</h2>
+            </div>
+            <div>
+                <br>
+                <h3>Call us at</h3>
+                <p>210 8658 499</p>
+                <h3>Or send us an email</h3>
+                <form>
+                    First name:<br>
+                    <input type="text" name="firstname">
+                    <br>
+                    Last name:<br>
+                    <input type="text" name="lastname">
+                    <br>
+                    E-mail:<br>
+                    <input type="text" name="email">
+                    <br>
+                    Phone number:<br>
+                    <input type="text" name="phonenumber">
+                    <br>
+                    
+                    <br>
+                    <textarea name="message" rows="15" cols="50">Type your message here.</textarea>
+
+                    <br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+
+
+        <div class="footer">
+            <div>
+                <h4>Follow us on our social Media</h4>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+            
+            <div class="made">
+                <h4>Made by Andreanna Stergiouli </h4>
+            </div>
+        </div>
+        <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(e) {
+              if (!e.target.matches('.dropbtn')) {
+                var myDropdown = document.getElementById("myDropdown");
+                  if (myDropdown.classList.contains('show')) {
+                    myDropdown.classList.remove('show');
+                  }
+              }
+            };
+        </script>
+    </body>
+</html>
