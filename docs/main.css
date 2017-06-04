@@ -247,7 +247,7 @@ form{
   border-radius: 50%;
 }
 
-.fa:hover {
+.fa-facebook:hover, .fa-twitter:hover, .fa-google:hover, .fa-linkedin:hover, .fa-youtube:hover, .fa-instagram:hover {
     opacity: 0.7;
 }
 
@@ -279,6 +279,9 @@ form{
 .fa-instagram {
   background: #125688;
   color: white;
+}
+.fa-eur{
+    padding: 0px;
 }
 .made{
     font-size: 70%;
