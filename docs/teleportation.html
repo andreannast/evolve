@@ -17,8 +17,8 @@
                 <div class="dropdown">
                     <button class="dropbtn" onClick="myFunction()">PRODUCTS</button>
                     <div class="dropdown-content" id="myDropdown">
-                    <a href="telekinesis.html">TELEKINESIS</a>
-                    <a href="shapeshifting.html">TELEPORTATION</a>
+                        <a href="telekinesis.html">TELEKINESIS</a>
+                        <a href="shapeshifting.html">TELEPORTATION</a>
                     </div>
                 </div> 
                 <a href="about.html">ABOUT US</a>
@@ -26,7 +26,7 @@
             </div>
         </div>
         <div class="container_h2">
-         	<div class="telekinesis" align="right">
+            <div class="telekinesis" align="right">
                 <h1>-TELEPORTATION</h1>
             </div>
             <div class="movestuff" align="right">
@@ -118,32 +118,8 @@
             <div class="words_d">
                 <h2>Plan your procedure today!</h2>
             </div>
-            <div>
-                <br>
-                <h3>Call us at</h3>
-                <p>210 8658 499</p>
-                <h3>Or send us an email</h3>
-                <form>
-                    First name:<br>
-                    <input type="text" name="firstname">
-                    <br>
-                    Last name:<br>
-                    <input type="text" name="lastname">
-                    <br>
-                    E-mail:<br>
-                    <input type="text" name="email">
-                    <br>
-                    Phone number:<br>
-                    <input type="text" name="phonenumber">
-                    <br>
-
-                    <br>
-                    <textarea name="message" rows="15" cols="50">Type your message here.</textarea>
-
-                    <br><br>
-                    <input type="submit" value="Submit">
-                </form>
-            </div>
+            <button class="button button_contact"><a href="contact.html">Contact us</a></button>
+            
         </div>
 
 
@@ -164,19 +140,19 @@
         </div>
         <script>
             /* When the user clicks on the button, 
-            toggle between hiding and showing the dropdown content */
+             toggle between hiding and showing the dropdown content */
             function myFunction() {
                 document.getElementById("myDropdown").classList.toggle("show");
             }
-    
+
             // Close the dropdown if the user clicks outside of it
-            window.onclick = function(e) {
-              if (!e.target.matches('.dropbtn')) {
-                var myDropdown = document.getElementById("myDropdown");
-                  if (myDropdown.classList.contains('show')) {
-                    myDropdown.classList.remove('show');
-                  }
-              }
+            window.onclick = function (e) {
+                if (!e.target.matches('.dropbtn')) {
+                    var myDropdown = document.getElementById("myDropdown");
+                    if (myDropdown.classList.contains('show')) {
+                        myDropdown.classList.remove('show');
+                    }
+                }
             };
         </script>
     </body>

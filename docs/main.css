@@ -1,12 +1,11 @@
 @font-face { font-family: Atlas; src: url(fonts/atlas.ttf)  format("truetype"); }
 @font-face { font-family: Plaza; src: url(fonts/plaza.ttf)  format("truetype");}
 @font-face { font-family: 'Atlas'; src: url('fonts/atlas.ttf') format('truetype')}
-/*a:link, a:visited, a:active {
-    background-color: #686868;
+.button_contact a:link,.button_contact a:visited,.button_contact a:active {
     text-decoration: none;
-    color: white;
+    color: inherit;
 }
-a.menuitem:hover { 
+/*a.menuitem:hover { 
     background-color: #424242;
     text-decoration: none;
     color: white;
@@ -74,7 +73,7 @@ form{
     letter-spacing: inherit;
 }
 
-.container a:hover, .dropdown:hover .dropbtn {
+.container a:hover, .dropdown:hover .dropbtn,{
     background-color: #b73c21;
 }
 .containerr a:hover, .dropdown:hover .dropbtn {
@@ -302,4 +301,31 @@ form{
 #ceo{
     text-align: right;
     padding-right: 30px;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: Plaza;
+    font-size: 25px;
+    border-radius: 20px;
+    
+}
+.button_contact {
+    margin-top: 30px;
+    background-color: whitesmoke; 
+    color: black; 
+    border: 4px solid #b73c21;
+}
+.button_contact:hover {
+    background-color: #b73c21;
+    color: white;
 }
