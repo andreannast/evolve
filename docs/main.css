@@ -174,9 +174,10 @@ form {
 }
 
 .footer {
+    margin: 50px 0px;
     font-family: Plaza;
     text-align: center;
-    height: 300px;
+    height: 120px;
     font-size: 140%;
     font-weight: normal;
     text-decoration: none;
@@ -295,9 +296,14 @@ form {
     background: #125688;
     color: white;
 }
-
+.follow{
+    font-size: 25px;
+    margin: 20px 0px;
+}
 .made {
+    margin: 20px 0px;
     font-size: 70%;
+    letter-spacing: 2px;
 }
 
 #bodybox_about {
