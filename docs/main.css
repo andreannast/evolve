@@ -73,7 +73,7 @@ form{
     letter-spacing: inherit;
 }
 
-.container a:hover, .dropdown:hover .dropbtn,{
+.container a:hover, .dropdown:hover .dropbtn{
     background-color: #b73c21;
 }
 .containerr a:hover, .dropdown:hover .dropbtn {
