@@ -95,6 +95,7 @@ h2, h1, h3 {
 }
 
 form {
+    font-size: 140%;
     line-height: 140%;
 }
 
@@ -142,7 +143,7 @@ form {
     font-size: 25px;
 }
 
-.bodybox, .bodybox_contact {
+.bodybox, .bodybox_contact, .bodybox2{
     text-align: center;
     border-top: 5px solid #686868;
     border-bottom: 5px solid #686868;
@@ -153,7 +154,9 @@ form {
     padding: 30px 30px 30px 30px;
     background-color: whitesmoke;
 }
-
+ .bodybox2{
+    height: 600px;
+}
 .bodybox {
     height: 360px;
 }
@@ -347,14 +350,22 @@ form {
     border-radius: 20px;
 }
 
-.button_contact {
+.button_contact, .button_contact2 {
     margin-top: 30px;
-    background-color: whitesmoke;
     color: black;
     border: 4px solid #b73c21;
 }
-
-.button_contact:hover {
+.button_contact {
+background-color: whitesmoke;
+}
+.button_contact2 {
+background-color: white;
+text-align: center;
+width: 205px;
+margin-left: auto;
+margin-right: auto;
+}
+.button_contact:hover, .button_contact2:hover {
     background-color: #b73c21;
     color: white;
 }
@@ -419,4 +430,126 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+
+/*slide show start*/
+
+
+.mySlides {
+    display:none;
+    background: #e8e8e8;
+    border-radius: 50%;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 400px;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 25px;
+  padding: 8px 12px;
+  
+  position: absolute;
+  bottom: 8px;
+  width: 94%;
+  text-align: center;
+  background: rgba(255,255,255, 0.7);
+  font-family: Plaza;
+  border-radius: 40%;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/*slide show end*/
+
+.we{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 5px solid #b73c21;
+    border-top: 5px solid #b73c21;
+    width: 920px;
 }
