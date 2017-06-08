@@ -1,0 +1,16 @@
+### What to show:
+
+## On github
+## sitemap (+robots.txt)
+## google analytics
+
+
+### Problems I faced:
+
+## Menu
+## Robots.txt and sitemap
+## Slider:
+# images had to be the same size
+# text couldn't be seen
+# arrows were not on the right place
+# added round background so that it will be more beautiful
